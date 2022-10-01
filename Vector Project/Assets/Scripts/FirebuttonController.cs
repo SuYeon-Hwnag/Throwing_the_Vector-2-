@@ -21,7 +21,7 @@ public class FirebuttonController : MonoBehaviour
         if(isFireButton==true) // 버튼 눌렸을 때
         {
             FireTimer += Time.deltaTime;
-            if (FireTimer >= 0.1f) // 0.1초 지났을 때
+            if (FireTimer >= 1.0f) // 0.1초 지났을 때
             {
                 isFireButton = false; // 안눌린 판정으로 바꿈
                 FireTimer = 0; // 타이머 리셋
